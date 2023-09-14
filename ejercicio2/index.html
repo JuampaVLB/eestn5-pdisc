@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <p id="message"></p>
+        <form id="form">
+            <label for="name">Nombre: 
+                <input type="text" name="name" required>
+            </label>
+            <label for="lastname">Apellido: 
+                <input type="text" name="lastname" required>
+            </label>
+            <label for="date">Fecha de Nacimiento: 
+                <input type="date" name="date">
+            </label>
+            <label for="salary">Sueldo Bruto (min: 100000, max: 500000): 
+                <input type="number" name="salary" required>
+            </label>
+            <input type="submit" value="Enviar" id="submit">
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
